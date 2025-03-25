@@ -1,3 +1,11 @@
+# Ignore macOS system files used to store folder metadata
+.DS_Store
+
+# Ignore OK autograde files
+**/.ok_history
+**/.ok_messages
+**/.ok_storage.db
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
